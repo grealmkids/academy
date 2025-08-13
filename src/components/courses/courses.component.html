@@ -1,0 +1,47 @@
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+    <div class="p-3 mb-5" *ngFor="let course of courses">
+      <h6 class="fw-bold text-dark text-center text-uppercase coursetitle">
+        <span class="">{{ course.Title }}</span>
+      </h6>
+      <div class="row">
+        <div class="col-md-3">
+          <a (click)="viewDetails(course.CourseId)">
+            <div>
+              <div class="m-3 shadow">
+                <img src="{{ course.Image }}" class="img-fluid" alt="" />
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <div class="course p-3-text bg-light py-5">
+            <h2 class="fw-bold text-center text-uppercase cost">
+              <span class="text-danger">{{ course.Price }}</span>
+              <br />
+              <span class="ugx">{{ course.PriceUgx }}</span>
+            </h2>
+            <p class="p-3 text-center">
+              {{ course.Description }}
+            </p>
+            <p class="text-center">
+              <span class="text-primary">Next Lot Begins:</span>
+              <span class="text-danger fw-bold">{{ course.Next }}</span>
+            </p>
+            <p class="p-3 text-center">
+              <button
+                class="btn btn-dark ps-5 pe-5 m-1"
+                (click)="viewDetails(course.CourseId)"
+              >
+                See Details/ Apply
+              </button>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+</div>

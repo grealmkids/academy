@@ -1,0 +1,41 @@
+table tr td {
+  border-bottom: 1px solid #000000;
+  padding: 3px;
+}
+table {
+  width: 100%;
+  padding: 3px;
+}
+.course-title {
+  padding: 0;
+}
+td {
+  padding: 0;
+}
+.text-right {
+  text-align: right;
+}
+.bg {
+  background-color: #ffffff;
+  background-image: url("/images/bg/cartographer.png");
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.coursetitle {
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: #9cff9c;
+}
+.cost {
+  font-size: 30px;
+}
+.cost i {
+  font-weight: normal;
+}
+.ugx {
+  font-size: 20px;
+  font-style: normal;
+  color: rgb(0, 61, 153);
+  font-weight: bold;
+}

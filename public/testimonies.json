@@ -1,0 +1,122 @@
+{
+  "students": [
+    {
+      "Id": 1,
+      "Name": "Dr. Bruno K.",
+      "Image": "images/students/bruno.jpg",
+      "Description": "It is a great feeling when I can imagine a design and at the same time able to bring it to a reality!. I liked the fact that Tutor Alfred taught us from first principles and in a 'tell, show, do, apply' manner.",
+      "Profession": "Professional Dentist",
+      "Location": "Nakasero Hospital",
+      "Year": "2023"
+    },
+    {
+      "Id": 2,
+      "Name": "Ruth Birungi",
+      "Image": "images/students/ruth.jpg",
+      "Description": "  The opportunity to learn graphic designing was a beautiful way to start my year. Am always excited about creating something new, something I thought was hard, now am able to do. The class has as well challenged my way of life. Am now more committed and diligent to tasks. Also as a medic am glad that I won't have to look at patients all the time.",
+      "Profession": "Student",
+      "Location": "Jinja",
+      "Year": "2024"
+    },
+    {
+      "Id": 3,
+      "Name": "Dr. Edward .K",
+      "Image": "images/students/edward.jpg",
+      "Description": "Your unwavering dedication, expertise, and creative guidance have been instrumental in nurturing my design skills and I am so proud to say that the concepts in my mind can now be put into existence. Your ability to explain complex concepts in a clear and engaging manner, making each class a source of inspiration.",
+      "Profession": "CEO - Routine Dental",
+      "Location": "Kampala",
+      "Year": "2023"
+    },
+
+    {
+      "Id": 4,
+      "Name": "Rosanne",
+      "Image": "images/students/rosanne.jpg",
+      "Description": "This class was a wonderful opportunity and very helpful. I learnt alot and believe i will benefit alot from the knowledge acquired.",
+      "Profession": "Student",
+      "Location": "Kampala",
+      "Year": "2024"
+    },
+    {
+      "Id": 5,
+      "Name": "Noel A. Dagi",
+      "Image": "images/students/noel.jpg",
+      "Description": "The graphics design course is one of my answered prayers in 2024 , for long I have been struggling to create flyers and edit photos using my phone apps that turns to be so hectic and poor quality. The course has been so smooth because teacher Alfred delivered the content in the  simplest way possible to understand and grasp.",
+      "Profession": "Agricultural Scientist",
+      "Location": "Gulu",
+      "Year": "2024"
+    },
+    {
+      "Id": 6,
+      "Name": "Shanitah N. Mukisa",
+      "Image": "images/students/shanitah.jpg",
+      "Description": "For the longest time, I had been designing graphics but what I lacked was a professional touch to my work. When I joined Bigezo class designs, I realized I hadn’t started designing! I learnt so much more, aspects that transformed my whole design sphere.",
+      "Profession": "Journalist and Communications Specialist",
+      "Location": "Kampala",
+      "Year": "2024"
+    },
+    {
+      "Id": 7,
+      "Name": "Jucent Kisitu",
+      "Image": "images/students/jucent.jpg",
+      "Description": "I thoroughly enjoyed the graphic design class! The instructor's guidance and expertise were invaluable, providing a comprehensive knowledge of the fundamentals of design and graphic creation.The instructor's feedback was constructive and supportive, helping me refine my designs. I highly recommend this class to anyone looking to develop their graphic design skills.",
+      "Profession": "Journalist and Communications Specialist",
+      "Location": "Joy for humanity Uganda",
+      "Year": "2024"
+    },
+    {
+      "Id": 8,
+      "Name": "Victor K. Magezi ",
+      "Image": "images/students/victor.jpg",
+      "Description": "I had a tough time trying to make flyers for different fellowships, businesses and birthdays because I was not skilled at all. I wanted to improve my art and skill, but everything seemed so complicated that I ended up giving up on my dream for a while. Then, by the grace of God, I got this chance to learn everything from scratch. Being an architecture student too, it has also made it way easier for me to understand certain things.",
+      "Profession": "Student (Bachelor of Architecture)",
+      "Location": "KIU Western Campus (Ishaka)",
+      "Year": "2024"
+    },
+    {
+      "Id": 9,
+      "Name": "Michelle Ritah O. ",
+      "Image": "images/students/michelle.jpg",
+      "Description": "The Graphic Design course was unlike any other. I learned so much in such a short while. The lessons were very detailed, and yet easy to understand. Tr Alfred was patient and calm, explaining theories and concepts in a manner that was easy to grasp. Who knew that an Administration guru would also dabble in and become a proficient graphic designer?! 😂😂😂😂 I’d definitely encourage any and everyone to take this course. It’ll be worth it.",
+      "Profession": "PA- Motor Vehicle Registration Project/ MoWT",
+      "Location": "URA- Nakawa",
+      "Year": "2024"
+    },
+    {
+      "Id": 10,
+      "Name": "Godfrey Kakubi ",
+      "Image": "images/students/godfrey.jpg",
+      "Description": "Tr. Alfred is an exceptional educator and an expert in his field. His teaching style is engaging, informative, and tailored to meet the needs of his students. He possesses a unique ability to break down complex concepts into easily digestible bits, making graphic design accessible to learners of all skill levels. Design fundamentals'   is a testament to Mr. Alfred's dedication to sharing his knowledge and expertise. The book is meticulously organized, filled with insightful explanations, and complemented by visuals that illustrate key concepts.",
+      "Profession": "Physiotherapy",
+      "Location": "UIAHMS Mulago",
+      "Year": "2024"
+    },
+    {
+      "Id": 11,
+      "Name": "Brian Epo ",
+      "Image": "images/students/brian.jpg",
+      "Description": "I recently completed a graphics design training.This training was conducted by Mr. Alfred Ochola, and men! I was impressed. As a person, I was hesitant, but the training truly met my expectations. This training added to my skills and helped me design and improve my business logo design and other concepts.",
+      "Profession": "Technical Electrician",
+      "Location": "Kampala",
+      "Year": "2024"
+    },
+    {
+      "Id": 12,
+      "Name": "Mark Okiring",
+      "Image": "images/students/mark.jpg",
+      "Description": "The training was very enriching and introduced me to the fundamental principles of design. I had the opportunity to work with tools such as Figma, which I previously thought were difficult to grasp. The training enabled me to create designs efficiently—a truly delightful experience! About two weeks into the training, I delivered some 'simple' graphics for a project at work, and my bosses were impressed.",
+      "Profession": "Web Developer",
+      "Location": "Kampala",
+      "Year": "2024"
+    },
+    {
+      "Id": 13,
+      "Name": "Patrick Ikara",
+      "Image": "images/students/patrick.jpg",
+      "Description": "I bless the Lord for such a great opportunity to Learn Graphic designing skills using the latest technologies and platforms from the most dedicated teachers that were always available to support and guide 24/7. My designing skills are better today course I got a chance to interact with professionals in the graphics designing field who are already achieving tremendous success in it and who left me inspired and fired up to excel in the same.",
+      "Profession": "Executive Director",
+      "Location": "Epic Designs ",
+      "Year": "2024"
+    }
+  ]
+}

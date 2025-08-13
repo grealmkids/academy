@@ -1,0 +1,62 @@
+<div class="p-3">
+  <div class="container text-center">
+    <p class="h3"><span class="text-primary">50+</span> Students taught</p>
+  </div>
+</div>
+
+<h1 class="py-5 text-center display-3 fw-bold">
+  What some former students say
+</h1>
+
+<div
+  id="carouselTestimonials"
+  class="carousel slide bg-dark p-3"
+  data-bs-ride="carousel"
+>
+  <div class="carousel-inner">
+    <div
+      class="carousel-item"
+      *ngFor="let student of students; let i = index"
+      [class.active]="i === 0"
+    >
+      <div class="row p-md-5">
+        <div class="col-md-1"></div>
+        <div class="image col-md-4 mb-3 mb-md-0 me-md-4">
+          <img
+            src="{{ student.Image }}"
+            class="img-fluid"
+            alt="{{ student.Name }}"
+          />
+        </div>
+        <div class="testimonial text-white col-md-6">
+          <p class="description fs-4">{{ student.Description }}</p>
+          <div class="source py-3">
+            <span class="name fw-bold">{{ student.Name }}</span
+            ><br />
+            <i class="profession">{{ student.Profession }}</i
+            >, <span class="location">{{ student.Location }}</span>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselTestimonials"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselTestimonials"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>

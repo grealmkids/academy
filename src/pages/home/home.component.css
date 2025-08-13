@@ -1,0 +1,33 @@
+.product {
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  width: 100%;
+}
+.product i {
+  font-size: 50px;
+}
+.product:hover {
+  padding: 33px;
+  width: 100%;
+}
+.homecover {
+  background: rgb(0, 0, 0) url("/images/bg/cartographer.png"); /* Correct path to your background image */
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+}
+.homecover h1 img {
+  width: 100px;
+}
+.h4 {
+  font-family: "Manrope", sans-serif;
+}
+.text-secondary {
+  color: rgb(208, 208, 208) !important;
+}
+.typing {
+  height: 100px !important;
+  color: #44b151 !important;
+}

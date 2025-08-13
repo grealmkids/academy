@@ -1,0 +1,116 @@
+<nav
+  class="navbar navbar-expand-lg navbar-dark bg-dark m-0"
+  aria-label=" navbar example"
+>
+  <div class="container-fluid m-0">
+    <a class="navbar-brand" href="http://grealm.org">
+      <img src="images/logowhite.png" class="logo" alt="" srcset="" />
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarsExample07"
+      aria-controls="navbarsExample07"
+      aria-expanded="true"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarsExample07" style="">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" (click)="navigateToHome()">Home</a>
+        </li>
+        <li class="nav-item active d-none">
+          <a class="nav-link" href="#">Downloads</a>
+        </li>
+
+        <li class="nav-item dropdown active">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            >Options</a
+          >
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" (click)="navigateToTutor()"
+                >About the tutors</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" (click)="navigateToTestimonies()"
+                >Testimonies</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" (click)="navigateToHome()">Courses</a>
+            </li>
+            <li class="d-none">
+              <a class="dropdown-item" (click)="navigateToDrills()"
+                >Free Sessions</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown active d-none">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            >Products</a
+          >
+          <ul class="dropdown-menu">
+            <li class="d-none">
+              <a class="dropdown-item" (click)="navigateToSms()"
+                ><i class="bi bi-windows me-3"></i> CRM DESKTOP APP</a
+              >
+            </li>
+
+            <li>
+              <a class="dropdown-item" (click)="navigateToReceipt()"
+                ><i class="bi bi-android me-3"></i> RECEIPT MAKER APP</a
+              >
+            </li>
+
+            <li>
+              <a class="dropdown-item" (click)="navigateToCard()"
+                ><i class="bi bi-windows me-3"></i> BULK CARD GENERATOR</a
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item" *ngIf="showSignup">
+          <a
+            class="btn btn-light m-1 me-5"
+            aria-current="page"
+            (click)="navigateToSignup()"
+            >Signup</a
+          >
+        </li>
+        <li class="nav-item" *ngIf="showLogin">
+          <a
+            class="btn btn-primary m-1"
+            aria-current="page"
+            (click)="navigateToLogin()"
+            >Login</a
+          >
+        </li>
+
+        <li class="nav-item">
+          <a
+            href="docs/design_fundamentals.pdf"
+            class="btn btn-light m-1 ms-md-5"
+            >Design Fundamentals <i class="bi bi-file-earmark-arrow-down"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
