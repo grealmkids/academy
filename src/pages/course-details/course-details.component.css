@@ -1,64 +1,38 @@
-.title-purple {
-  padding: 10px;
-  background-color: rgb(235, 216, 255);
-  border-bottom: 2px solid #000000;
-}
-
-.title-blue {
-  padding: 10px;
-  background-color: rgb(216, 228, 255);
-  border-bottom: 2px solid #000000;
-}
-
-.title-red {
-  padding: 10px;
-  background-color: rgb(255, 216, 216);
-  border-bottom: 2px solid #000000;
-}
-
-.title-green {
-  padding: 10px;
-  background-color: rgb(223, 255, 216);
-  border-bottom: 2px solid #000000;
-}
-
-.title-orange {
-  padding: 10px;
-  background-color: rgb(255, 237, 216);
-  border-bottom: 2px solid #000000;
-}
-
-.title-yellow {
-  padding: 10px;
-  background-color: rgb(251, 255, 216);
-  border-bottom: 2px solid #000000;
-}
-
+.title-purple,
+.title-blue,
+.title-red,
+.title-green,
+.title-orange,
+.title-yellow,
 .title-dark {
   padding: 10px;
-  background-color: rgb(215, 215, 215);
-  border-bottom: 2px solid #000000;
+  background-color: var(--brand-blue); /* Remap all to brand blue */
+  border-bottom: 2px solid var(--brand-green); /* Remap to brand green */
+  color: var(--brand-white); /* Ensure text is white for contrast */
+  font-size: 1.5rem; /* Increased font size */
 }
 
 .table tr td {
   padding: 5px;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid var(--brand-green); /* Remap to brand green */
 }
 .coursetitle {
-  color: #818181;
+  color: var(--brand-white); /* Remap to brand white */
+  font-size: 1.2rem; /* Increased font size */
 }
 td span {
-  color: rgb(15, 142, 233);
+  color: var(--brand-green); /* Remap to brand green */
   background-color: transparent;
   font-style: italic;
+  font-size: 1.1rem; /* Increased font size */
 }
 .mb-7 {
   margin-bottom: 100px;
 }
 
 .bg {
-  background-color: #000000;
-  background-image: url("/images/bg/clean-gray-paper.png");
+  background-color: var(--brand-black); /* Remap to brand black */
+  /* Removed background-image as per user's request to remove all other colors */
 }
 
 .parent {
@@ -66,8 +40,8 @@ td span {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #000000;
-  background-image: url("/images/bg/clean-gray-paper.png");
+  background-color: var(--brand-black); /* Remap to brand black */
+  /* Removed background-image as per user's request to remove all other colors */
   overflow: hidden;
 }
 
@@ -87,8 +61,8 @@ td span {
   align-items: center;
   width: 100%;
   height: 100%;
-  background: #f0f5f9;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: var(--brand-blue); /* Remap to brand blue */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Adjusted shadow for contrast */
 }
 /* Form animations */
 .wrapper.animate-signUp .form-wrapper.sign-in {
@@ -155,8 +129,8 @@ td span {
 }
 /* Heading text */
 h2 {
-  font-size: 30px;
-  color: #1e2022;
+  font-size: 2rem; /* Increased font size */
+  color: var(--brand-white); /* Remap to brand white */
   text-align: center;
 }
 /* Input text */
@@ -168,62 +142,68 @@ h2 {
 
 .input-group label {
   position: relative;
-
   left: 5px;
-  font-size: 16px;
-  color: #1e2022;
+  font-size: 1.1rem; /* Increased font size */
+  color: var(--brand-white); /* Remap to brand white */
   padding: 0 5px;
 }
 
 .input-group input {
   width: 100%;
   height: 40px;
-  font-size: 16px;
-  color: #1e2022;
+  font-size: 1.1rem; /* Increased font size */
+  color: var(--brand-white); /* Remap to brand white */
   padding: 0 10px;
   background: transparent;
-  border: 1px solid #1e2022;
+  border: 1px solid var(--brand-green); /* Remap to brand green */
   outline: none;
   border-radius: 5px;
 }
 
 .backtocourse a {
-  color: #0041b2;
+  color: var(--brand-green); /* Remap to brand green */
   text-decoration: underline;
+  font-size: 1.1rem; /* Increased font size */
 }
 input {
-  font-size: 18px !important;
+  font-size: 1.1rem !important; /* Increased font size */
   border: none !important;
-  border-bottom: 1px solid #000000 !important;
+  border-bottom: 1px solid var(--brand-green) !important; /* Remap to brand green */
   border-radius: 0 !important;
   text-align: center;
+  background-color: var(--brand-black); /* Ensure input background is dark */
+  color: var(--brand-white); /* Ensure input text is light */
 }
 
 .success {
-  background-color: #3db135;
+  background-color: var(--brand-green); /* Remap to brand green */
   border-radius: 20px;
-  color: #ffffff;
+  color: var(--brand-black); /* Remap to brand black for contrast */
+  font-size: 1.1rem; /* Increased font size */
 }
 .selectedcourse {
-  background-color: #aaffa4;
+  background-color: var(--brand-blue); /* Remap to brand blue */
   width: 100%;
   padding: 10px;
+  color: var(--brand-white); /* Ensure text is white for contrast */
+  font-size: 1.1rem; /* Increased font size */
 }
 .benefits {
   text-align: left;
 }
 .list-unstyled li h5 {
-  color: #666666;
+  color: var(--brand-white); /* Remap to brand white */
+  font-size: 1.1rem; /* Increased font size */
 }
 .bg-none {
   background-color: transparent !important;
 }
 .table2 tr td {
   padding: 5px;
-  border-bottom: 1px solid #d8d7d7;
+  border-bottom: 1px solid var(--brand-green); /* Remap to brand green */
 }
 .table2 tr:nth-child(odd) {
-  background-color: #e0e0e0;
+  background-color: var(--brand-blue); /* Remap to brand blue */
 }
 .table2 {
   width: 100%;

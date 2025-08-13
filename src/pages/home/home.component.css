@@ -1,21 +1,24 @@
 .product {
   padding: 30px;
   border-radius: 20px;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
+  background-color: var(--brand-black); /* Changed to brand black */
+  color: var(--brand-white); /* Keep white text */
   width: 100%;
+  font-size: 1.1rem; /* Increased font size */
 }
 .product i {
-  font-size: 50px;
+  font-size: 3.5rem; /* Increased font size */
 }
 .product:hover {
   padding: 33px;
   width: 100%;
+  background-color: var(--brand-blue); /* Changed hover to brand blue */
+  color: var(--brand-white); /* Keep white text on hover */
 }
 .homecover {
-  background: rgb(0, 0, 0) url("/images/bg/cartographer.png"); /* Correct path to your background image */
-  background-size: cover; /* Ensures the image covers the entire element */
-  background-position: center; /* Centers the image */
+  background: var(--brand-black); /* Remap to brand black, removed image */
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .homecover h1 img {
@@ -23,11 +26,13 @@
 }
 .h4 {
   font-family: "Manrope", sans-serif;
+  font-size: 1.5rem; /* Increased font size */
 }
 .text-secondary {
-  color: rgb(208, 208, 208) !important;
+  color: var(--brand-white) !important; /* Remap to brand white */
 }
 .typing {
   height: 100px !important;
-  color: #44b151 !important;
+  color: var(--brand-green) !important; /* Remap to brand green */
+  font-size: 2rem; /* Increased font size */
 }

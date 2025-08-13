@@ -1,5 +1,6 @@
 .dropdown-menu {
   border-radius: 0 !important;
+  background-color: var(--brand-black); /* Ensure dropdown background is dark */
 }
 .dropdown-menu li {
   margin: 5px;
@@ -8,20 +9,22 @@
   padding-bottom: 10px;
   padding-top: 10px;
   border: none;
-  background-color: #fd9191;
+  background-color: var(--brand-green); /* Remap to brand green for hover */
+  color: var(--brand-black); /* Text color on hover */
 }
 
 .dropdown-menu li a:clicked {
   padding-bottom: 10px;
   padding-top: 10px;
-  border-bottom: 2px solid #000000;
-  color: #e7e7e7;
-  background-color: #000000;
+  border-bottom: 2px solid var(--brand-green); /* Remap to brand green */
+  color: var(--brand-white); /* Remap to brand white */
+  background-color: var(--brand-blue); /* Remap to brand blue */
 }
 .logo {
   width: 100px;
 }
 .dropdown-menu li a {
-  border-bottom: 2px solid #000000;
-  color: #000000 !important;
+  border-bottom: 2px solid var(--brand-blue); /* Remap to brand blue */
+  color: var(--brand-white) !important; /* Remap to brand white */
+  font-size: 1.1rem; /* Slightly larger font size for dropdown items */
 }

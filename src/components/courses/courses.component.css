@@ -1,5 +1,5 @@
 table tr td {
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid var(--brand-green); /* Remap to brand green */
   padding: 3px;
 }
 table {
@@ -16,26 +16,27 @@ td {
   text-align: right;
 }
 .bg {
-  background-color: #ffffff;
-  background-image: url("/images/bg/cartographer.png");
+  background-color: var(--brand-black); /* Remap to brand black */
+  /* Removed background-image as per user's request to remove all other colors */
 }
 .text-uppercase {
   text-transform: uppercase;
 }
 .coursetitle {
-  font-size: 24px;
+  font-size: 1.8rem; /* Increased font size */
   padding: 10px 20px;
-  background-color: #9cff9c;
+  background-color: rgba(255, 255, 255, 0.05); /* White background with opacity 0.05 */
+  color: var(--brand-green); /* Light green text */
 }
 .cost {
-  font-size: 30px;
+  font-size: 2.2rem; /* Increased font size */
 }
 .cost i {
   font-weight: normal;
 }
 .ugx {
-  font-size: 20px;
+  font-size: 1.4rem; /* Increased font size */
   font-style: normal;
-  color: rgb(0, 61, 153);
+  color: var(--brand-blue); /* Remap to brand blue */
   font-weight: bold;
 }

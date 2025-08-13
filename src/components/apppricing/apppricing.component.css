@@ -1,7 +1,7 @@
 .text-success {
-  color: rgb(92, 190, 0) !important;
+  color: var(--brand-green) !important;
 }
 
 .btn-success {
-  background-color: rgb(92, 190, 0) !important;
+  background-color: var(--brand-green) !important;
 }

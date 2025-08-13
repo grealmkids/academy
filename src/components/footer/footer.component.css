@@ -3,15 +3,15 @@ ul {
   padding: 0px;
 }
 .footer-section {
-  background: #151414;
+  background: var(--brand-black); /* Remap to brand black */
   position: relative;
 }
 .footer-cta {
-  border-bottom: 1px solid #373636;
+  border-bottom: 1px solid var(--brand-green); /* Remap to brand green */
 }
 .single-cta i {
-  color: #ff1414;
-  font-size: 30px;
+  color: var(--brand-green); /* Remap to brand green */
+  font-size: 2rem; /* Increased font size */
   float: left;
   margin-top: 8px;
 }
@@ -20,14 +20,14 @@ ul {
   display: inline-block;
 }
 .cta-text h4 {
-  color: #fff;
-  font-size: 20px;
+  color: var(--brand-white); /* Remap to brand white */
+  font-size: 1.5rem; /* Increased font size */
   font-weight: 600;
   margin-bottom: 2px;
 }
 .cta-text span {
-  color: #757575;
-  font-size: 15px;
+  color: var(--brand-white); /* Remap to brand white */
+  font-size: 1.1rem; /* Increased font size */
 }
 .footer-content {
   position: relative;
@@ -49,21 +49,21 @@ ul {
 }
 .footer-text p {
   margin-bottom: 14px;
-  font-size: 14px;
-  color: #7e7e7e;
+  font-size: 1.1rem; /* Increased font size */
+  color: var(--brand-white); /* Remap to brand white */
   line-height: 28px;
 }
 .footer-social-icon span {
-  color: #fff;
+  color: var(--brand-white); /* Remap to brand white */
   display: block;
-  font-size: 20px;
+  font-size: 1.5rem; /* Increased font size */
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
 }
 .footer-social-icon a {
-  color: #fff;
-  font-size: 16px;
+  color: var(--brand-white); /* Remap to brand white */
+  font-size: 1.2rem; /* Increased font size */
   margin-right: 15px;
 }
 .footer-social-icon i {
@@ -73,18 +73,14 @@ ul {
   line-height: 38px;
   border-radius: 50%;
 }
-.facebook-bg {
-  background: #3b5998;
-}
-.twitter-bg {
-  background: #55acee;
-}
-.google-bg {
-  background: #dd4b39;
-}
+/* Removed specific social media background colors as they are not in brand palette */
+/* .facebook-bg { background: #3b5998; } */
+/* .twitter-bg { background: #55acee; } */
+/* .google-bg { background: #dd4b39; } */
+
 .footer-widget-heading h3 {
-  color: #fff;
-  font-size: 20px;
+  color: var(--brand-white); /* Remap to brand white */
+  font-size: 1.5rem; /* Increased font size */
   font-weight: 600;
   margin-bottom: 40px;
   position: relative;
@@ -96,7 +92,7 @@ ul {
   bottom: -15px;
   height: 2px;
   width: 50px;
-  background: #ff1414;
+  background: var(--brand-green); /* Remap to brand green */
 }
 .footer-widget ul li {
   display: inline-block;
@@ -105,11 +101,12 @@ ul {
   margin-bottom: 12px;
 }
 .footer-widget ul li a:hover {
-  color: #ff1414;
+  color: var(--brand-green); /* Remap to brand green */
 }
 .footer-widget ul li a {
-  color: #878787;
+  color: var(--brand-white); /* Remap to brand white */
   text-transform: capitalize;
+  font-size: 1.1rem; /* Increased font size */
 }
 .subscribe-form {
   position: relative;
@@ -118,43 +115,43 @@ ul {
 .subscribe-form input {
   width: 100%;
   padding: 14px 28px;
-  background: #2e2e2e;
-  border: 1px solid #2e2e2e;
-  color: #fff;
+  background: var(--brand-blue); /* Remap to brand blue */
+  border: 1px solid var(--brand-blue); /* Remap to brand blue */
+  color: var(--brand-white); /* Remap to brand white */
 }
 .subscribe-form button {
   position: absolute;
   right: 0;
-  background: #ff1414;
+  background: var(--brand-green); /* Remap to brand green */
   padding: 13px 20px;
-  border: 1px solid #ff1414;
+  border: 1px solid var(--brand-green); /* Remap to brand green */
   top: 0;
 }
 .subscribe-form button i {
-  color: #fff;
-  font-size: 22px;
+  color: var(--brand-black); /* Remap to brand black for contrast */
+  font-size: 1.5rem; /* Increased font size */
   transform: rotate(-6deg);
 }
 .copyright-area {
-  background: #202020;
+  background: var(--brand-black); /* Remap to brand black */
   padding: 25px 0;
 }
 .copyright-text p {
   margin: 0;
-  font-size: 14px;
-  color: #878787;
+  font-size: 1.1rem; /* Increased font size */
+  color: var(--brand-white); /* Remap to brand white */
 }
 .copyright-text p a {
-  color: #ff1414;
+  color: var(--brand-green); /* Remap to brand green */
 }
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
 }
 .footer-menu li:hover a {
-  color: #ff1414;
+  color: var(--brand-green); /* Remap to brand green */
 }
 .footer-menu li a {
-  font-size: 14px;
-  color: #878787;
+  font-size: 1.1rem; /* Increased font size */
+  color: var(--brand-white); /* Remap to brand white */
 }

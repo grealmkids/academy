@@ -2,7 +2,7 @@
   <div class="col-md-1"></div>
   <div class="col-md-10">
     <div class="p-3 mb-5" *ngFor="let course of courses">
-      <h6 class="fw-bold text-dark text-center text-uppercase coursetitle">
+      <h6 class="fw-bold text-center text-uppercase coursetitle">
         <span class="">{{ course.Title }}</span>
       </h6>
       <div class="row">
@@ -16,9 +16,9 @@
           </a>
         </div>
         <div class="col-md-6">
-          <div class="course p-3-text bg-light py-5">
+          <div class="course p-3-text bg-dark py-5"> <!-- Changed bg-light to bg-dark -->
             <h2 class="fw-bold text-center text-uppercase cost">
-              <span class="text-danger">{{ course.Price }}</span>
+              <span class="text-success">{{ course.Price }}</span> <!-- Changed text-danger to text-success -->
               <br />
               <span class="ugx">{{ course.PriceUgx }}</span>
             </h2>
@@ -27,7 +27,7 @@
             </p>
             <p class="text-center">
               <span class="text-primary">Next Lot Begins:</span>
-              <span class="text-danger fw-bold">{{ course.Next }}</span>
+              <span class="text-success fw-bold">{{ course.Next }}</span> <!-- Changed text-danger to text-success -->
             </p>
             <p class="p-3 text-center">
               <button

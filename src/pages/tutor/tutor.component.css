@@ -1,50 +1,60 @@
 .text-larger {
-  font-size: larger;
+  font-size: 1.2rem; /* Increased font size */
 }
 .semi-header {
-  background-color: #141414;
-  color: #ffffff;
+  background-color: var(--brand-black); /* Remap to brand black */
+  color: var(--brand-white); /* Remap to brand white */
+  font-size: 1.5rem; /* Increased font size */
 }
 .text-red {
-  color: #ff4f4f;
+  color: var(--brand-green); /* Remap to brand green */
 }
 .cost {
   text-align: right;
-  color: #2646af;
+  color: var(--brand-blue); /* Remap to brand blue */
+  font-size: 1.2rem; /* Increased font size */
 }
 .about-tutor {
   padding: 10px 20px;
-  color: var(--text-red);
+  color: var(--brand-green); /* Remap to brand green */
+  font-size: 1.1rem; /* Increased font size */
 }
 .tutor {
-  color: #000000;
-  font-size: large;
+  color: var(--brand-white); /* Remap to brand white */
+  font-size: 1.5rem; /* Increased font size */
 }
 .bg-grey {
-  background-color: #eaeaea;
+  background-color: var(--brand-blue); /* Remap to brand blue */
 }
 
 .hiregraphic {
   padding: 10px;
   border-radius: 15px;
-  background-color: #daffd8 !important;
+  background-color: var(--brand-green) !important; /* Remap to brand green */
+  color: var(--brand-black); /* Ensure text is black for contrast */
+  font-size: 1.1rem; /* Increased font size */
 }
 .hireweb {
   padding: 10px;
   border-radius: 15px;
-  background-color: #e3e3e3 !important;
+  background-color: var(--brand-blue) !important; /* Remap to brand blue */
+  color: var(--brand-white); /* Ensure text is white for contrast */
+  font-size: 1.1rem; /* Increased font size */
 }
 .hireadvanced {
   padding: 10px;
   border-radius: 15px;
-  background-color: #ffd8d8 !important;
+  background-color: var(--brand-green) !important; /* Remap to brand green */
+  color: var(--brand-black); /* Ensure text is black for contrast */
+  font-size: 1.1rem; /* Increased font size */
 }
 
 p span {
-  font-size: 50px;
+  font-size: 3.5rem; /* Increased font size */
 }
 .myname {
-  font-size: 18px !important;
-  background-color: #ff8989;
+  font-size: 1.2rem !important; /* Increased font size */
+  background-color: var(--brand-green); /* Remap to brand green */
   padding: 3px 10px;
+  color: var(--brand-black); /* Ensure text is black for contrast */
 }

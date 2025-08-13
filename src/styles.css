@@ -1,46 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+:root {
+  --brand-black: #000000;
+  --brand-white: #FFFFFF;
+  --brand-green: #4cff7a;
+  --brand-blue: #041185;
+}
+
 body {
   --bs-body-font-family: "Barlow", sans-serif;
   font-weight: 500;
   font-style: normal;
-  --bs-body-line-height: 1.4;
-  --bs-body-bg: var(--bs-gray-100);
-  --bg-red: #da3434;
-  --text-red: #da3434;
-  --bg-light-red: #ffb8b8;
-  --bg-black: #000000;
-  background-color: #efefef;
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  --bs-body-line-height: 1.6; /* Slightly increased line height for readability */
+  background-color: var(--brand-black); /* Dark background */
+  color: var(--brand-white); /* Light text for contrast */
+  font-size: 1.1rem; /* Slightly larger base font size */
 }
+
+/* Override Bootstrap's default colors and apply brand colors */
 .bg-danger {
-  background-color: var(--bg-red) !important;
+  background-color: var(--brand-blue) !important; /* Remap to brand blue */
 }
+
 .table {
-  --bs-table-color: var(--bs-gray-600);
-  --bs-table-bg: var(--bs-gray-100);
-  --bs-table-border-color: transparent;
+  --bs-table-color: var(--brand-white); /* Light text for table */
+  --bs-table-bg: var(--brand-black); /* Dark background for table */
+  --bs-table-border-color: var(--brand-green); /* Green border for tables */
 }
 
 .bg-black {
-  background-color: var(--bg-black);
+  background-color: var(--brand-black); /* Keep black */
 }
+
 .text-right {
   text-align: right !important;
 }
 .text-left {
   text-align: left !important;
 }
+
 .chosenapp {
-  padding: 10px;
-  background-color: #fff7f7;
-  color: #b60f0f;
+  background-color: var(--brand-blue); /* Remap to brand blue */
+  color: var(--brand-white); /* Remap to brand white */
 }
+
 .form-control {
   border: 0px;
   border-radius: 0px;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid var(--brand-green); /* Remap to brand green */
+  background-color: var(--brand-black); /* Ensure form control background is dark */
+  color: var(--brand-white); /* Ensure form control text is light */
 }
+
 .navbar-brand,
 .nav-link,
 .dropdown-item,
@@ -56,30 +68,31 @@ body {
 }
 
 .location {
-  color: #004c98;
-  font-weight: light;
+  color: var(--brand-green); /* Remap to brand green */
 }
 .tutorname {
-  color: #34ae21;
+  color: var(--brand-green); /* Remap to brand green */
   padding: 5px;
-  border-bottom: 1px solid #34ae21;
-  font-size: 28px;
+  border-bottom: 1px solid var(--brand-green); /* Remap to brand green */
+  font-size: 1.8rem; /* Increased font size */
 }
 .btn-kids {
-  background-color: #ffc675;
-  color: #000000;
+  background-color: var(--brand-green); /* Remap to brand green */
+  color: var(--brand-black); /* Keep black text */
   font-weight: 600;
+  font-size: 1.1rem; /* Increased font size */
 }
 .btn-blue {
-  background-color: #75ffda;
-  color: #000000;
+  background-color: var(--brand-blue); /* Remap to brand blue */
+  color: var(--brand-white); /* Remap to brand white */
   font-weight: 600;
+  font-size: 1.1rem; /* Increased font size */
 }
 .btn-blue:hover,
 .btn-kids:hover {
-  background-color: #aeaeae;
-  color: #000000;
+  background-color: var(--brand-white); /* Remap to brand white */
+  color: var(--brand-black); /* Keep black text */
 }
 .text-primary {
-  color: #0190b0 !important;
+  color: var(--brand-green) !important; /* Remap to brand green */
 }
