@@ -31,8 +31,6 @@
 .text-secondary {
   color: var(--brand-white) !important; /* Remap to brand white */
 }
-.typing {
-  height: 100px !important;
-  color: var(--brand-green) !important; /* Remap to brand green */
-  font-size: 2rem; /* Increased font size */
+.text-green {
+  color: var(--brand-green) !important;
 }

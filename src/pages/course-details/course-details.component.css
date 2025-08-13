@@ -61,7 +61,7 @@ td span {
   align-items: center;
   width: 100%;
   height: 100%;
-  background: var(--brand-blue); /* Remap to brand blue */
+  background: rgba(4, 17, 133, 0.3); /* Brand blue with 0.3 opacity */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Adjusted shadow for contrast */
 }
 /* Form animations */

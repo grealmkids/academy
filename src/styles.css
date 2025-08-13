@@ -60,6 +60,18 @@ body {
   cursor: pointer;
 }
 
+.btn-primary {
+  background-color: var(--brand-blue) !important;
+  border-color: var(--brand-blue) !important;
+  color: var(--brand-white) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--brand-green) !important;
+  border-color: var(--brand-green) !important;
+  color: var(--brand-black) !important;
+}
+
 .image-wrapper img {
   max-width: 200px !important;
 }

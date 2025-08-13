@@ -9,8 +9,8 @@
   padding-bottom: 10px;
   padding-top: 10px;
   border: none;
-  background-color: var(--brand-green); /* Remap to brand green for hover */
-  color: var(--brand-black); /* Text color on hover */
+  background-color: rgba(4, 17, 133, 0.3); /* Brand blue with 0.3 opacity */
+  color: var(--brand-white); /* Text color on hover */
 }
 
 .dropdown-menu li a:clicked {

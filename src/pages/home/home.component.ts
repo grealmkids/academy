@@ -1,7 +1,6 @@
 import { Component, OnInit} from '@angular/core';
 import { CoursesComponent } from "../../components/courses/courses.component";
 import { NavigationService } from '../../app/navigation.service';
-import { TypingAnimationService } from './typing-animation.service';
 
 
 @Component({
@@ -12,13 +11,10 @@ import { TypingAnimationService } from './typing-animation.service';
     imports: [CoursesComponent]
 })
 export class HomeComponent implements OnInit {
-    typingText: string = '';
-    private intervalId: any;
   
-    constructor(private navigationService:NavigationService,private typingAnimationService: TypingAnimationService) {}
+    constructor(private navigationService:NavigationService) {}
   
 ngOnInit(): void {
-    this.startTypingAnimation();
 }
 
 navigateToTutor(){
@@ -35,11 +31,5 @@ navigateToReceipt(){
 }
 navigateToTestimonies(){
   this.navigationService.navigateToTestimonies(); 
-}
-startTypingAnimation(): void {
-  this.intervalId = setInterval(() => {
-    this.typingAnimationService.updateText();
-    this.typingText = this.typingAnimationService.getCurrentText();
-  }, 1000); // Adjust typing speed here
 }
 }

@@ -5,6 +5,10 @@
       <h6 class="fw-bold text-center text-uppercase coursetitle">
         <span class="">{{ course.Title }}</span>
       </h6>
+      <div class="price-tag">
+        <span class="price-dollar">{{ course.Price }}</span>
+        <span class="price-ugx">{{ course.PriceUgx }}</span>
+      </div>
       <div class="row">
         <div class="col-md-3">
           <a (click)="viewDetails(course.CourseId)">
@@ -16,12 +20,7 @@
           </a>
         </div>
         <div class="col-md-6">
-          <div class="course p-3-text bg-dark py-5"> <!-- Changed bg-light to bg-dark -->
-            <h2 class="fw-bold text-center text-uppercase cost">
-              <span class="text-success">{{ course.Price }}</span> <!-- Changed text-danger to text-success -->
-              <br />
-              <span class="ugx">{{ course.PriceUgx }}</span>
-            </h2>
+          <div class="course p-3-text bg-transparent-white py-5">
             <p class="p-3 text-center">
               {{ course.Description }}
             </p>

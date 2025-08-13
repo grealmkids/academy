@@ -25,18 +25,46 @@ td {
 .coursetitle {
   font-size: 1.8rem; /* Increased font size */
   padding: 10px 20px;
-  background-color: rgba(255, 255, 255, 0.05); /* White background with opacity 0.05 */
-  color: var(--brand-green); /* Light green text */
+  background-color: rgba(4, 17, 133, 0.3); /* Brand blue with 0.3 opacity */
+  color: var(--brand-white); /* White text */
 }
-.cost {
-  font-size: 2.2rem; /* Increased font size */
+.bg-transparent-white {
+  background-color: rgba(255, 255, 255, 0.05);
 }
-.cost i {
-  font-weight: normal;
+
+.p-3.mb-5 { /* This is the parent container of the course card */
+  position: relative;
 }
-.ugx {
-  font-size: 1.4rem; /* Increased font size */
-  font-style: normal;
-  color: var(--brand-blue); /* Remap to brand blue */
+
+.price-tag {
+  position: absolute;
+  top: -10px; /* Adjust as needed to float above */
+  right: 10px; /* Adjust as needed to float at the end */
+  background-color: var(--brand-green);
+  padding: 5px 10px;
+  z-index: 10; /* Ensure it's above other elements */
+  font-size: 1.2rem; /* Adjust font size */
   font-weight: bold;
+}
+
+.price-dollar {
+  color: var(--brand-black);
+  font-size: 1.5rem; /* Larger font size */
+  display: block; /* On its own line */
+  margin-right: 0; /* Remove margin-right as it's on its own line */
+}
+
+.price-ugx {
+  color: var(--brand-blue);
+}
+
+@media (max-width: 767px) {
+  .price-tag {
+    top: 5px; /* Adjust top for smaller screens */
+    right: 5px; /* Adjust right for smaller screens */
+    font-size: 1rem; /* Slightly smaller font size for phone */
+  }
+  .price-dollar {
+    font-size: 1.2rem; /* Adjust dollar font size for phone */
+  }
 }
