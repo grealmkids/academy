@@ -1,10 +1,13 @@
 table tr td {
-  border-bottom: 1px solid var(--brand-green); /* Remap to brand green */
-  padding: 3px;
+  border-bottom: 1px solid rgba(76, 255, 122, 0.3); /* Remap to brand green with 0.3 opacity */
+  padding: 5px 10px;
 }
 table {
+  margin: 10px;
   width: 100%;
-  padding: 3px;
+  padding: 5px 10px;
+  border-bottom: 1px solid rgba(76, 255, 122, 0.3); /* Remap to brand green */
+  border-top: 1px solid rgba(76, 255, 122, 0.3); /* Remap to brand green */
 }
 .course-title {
   padding: 0;
@@ -30,6 +33,27 @@ td {
 }
 .bg-transparent-white {
   background-color: rgba(255, 255, 255, 0.05);
+}
+
+.course-info-table {
+  width: 90%; /* Adjust width as needed */
+  margin: 15px auto; /* Center the table and add some margin */
+  border-collapse: collapse; /* Remove space between borders */
+}
+
+.course-info-table td {
+  padding: 8px;
+  border: 1px solid var(--brand-black); /* Black borders */
+  color: var(--brand-white); /* White text for contrast */
+  font-size: 1.1rem; /* Adjust font size */
+}
+
+.course-info-table tr:first-child td {
+  border-top: none; /* Remove top border for first row */
+}
+
+.course-info-table tr:last-child td {
+  border-bottom: none; /* Remove bottom border for last row */
 }
 
 .p-3.mb-5 {

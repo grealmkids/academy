@@ -200,7 +200,7 @@ input {
 }
 .table2 tr td {
   padding: 5px;
-  border-bottom: 1px solid var(--brand-blue); /* Brand blue with 0.3 opacity */
+  border-bottom: 1px solid var(--brand-green); /* Remap to brand green */
 }
 .table2 tr:nth-child(odd) {
   /* Removed background-color */

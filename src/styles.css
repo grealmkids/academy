@@ -3,7 +3,7 @@
 
 :root {
   --brand-black: #000000;
-  --brand-white: #FFFFFF;
+  --brand-white: #ffffff;
   --brand-green: #4cff7a;
   --brand-blue: #041185;
 }
@@ -49,7 +49,9 @@ body {
   border: 0px;
   border-radius: 0px;
   border-bottom: 2px solid var(--brand-green); /* Remap to brand green */
-  background-color: var(--brand-black); /* Ensure form control background is dark */
+  background-color: var(
+    --brand-black
+  ); /* Ensure form control background is dark */
   color: var(--brand-white); /* Ensure form control text is light */
 }
 
@@ -96,9 +98,8 @@ body {
 }
 
 .btn-danger:hover {
-  background-color: var(--brand-green) !important;
-  border-color: var(--brand-green) !important;
-  color: var(--brand-black) !important;
+  background-color: #3b3b3b !important;
+  border-color: var(--brand-black) !important;
 }
 
 .image-wrapper img {

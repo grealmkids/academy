@@ -7,7 +7,9 @@
       </h6>
 
       <div class="row">
-        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+        <div
+          class="col-md-3 d-flex flex-column justify-content-center align-items-center"
+        >
           <a (click)="viewDetails(course.CourseId)">
             <div>
               <div class="m-3 shadow">
@@ -29,13 +31,19 @@
             <p class="p-3 text-center">
               {{ course.Description }}
             </p>
-            <p class="text-center">
-              <span class="text-light">Next Lot Begins : </span>
-              <span class="text-primary">{{ course.Next }}</span>
-            </p>
+            <table class="course-info-table">
+              <tr>
+                <td>Next Lot Begins on:</td>
+                <td class="text-primary">{{ course.Next }}</td>
+              </tr>
+              <tr>
+                <td>Duration:</td>
+                <td class="text-primary">{{ course.Duration }}</td>
+              </tr>
+            </table>
             <p class="p-3 text-center">
               <button
-                class="btn btn-dark ps-5 pe-5 m-1"
+                class="btn btn-danger ps-5 pe-5 m-1"
                 (click)="viewDetails(course.CourseId)"
               >
                 See Details/ Apply
@@ -43,16 +51,21 @@
             </p>
           </div>
         </div>
-        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+        <div
+          class="col-md-3 d-flex flex-column justify-content-center align-items-center"
+        >
           <div class="media-container">
             <div *ngIf="course.audioadvert" class="my-3">
               <audio controls class="w-100">
-                <source [src]="course.audioadvert" type="audio/mpeg">
+                <source [src]="course.audioadvert" type="audio/mpeg" />
                 Your browser does not support the audio element.
               </audio>
             </div>
             <div *ngIf="course.videoadvert" class="my-3">
-              <button class="btn btn-dark ps-5 pe-5 m-1 w-100" (click)="playVideo(course.videoadvert)">
+              <button
+                class="btn btn-dark ps-5 pe-5 m-1 w-100"
+                (click)="playVideo(course.videoadvert)"
+              >
                 <i class="bi bi-play-circle me-2"></i> Play Video Ad
               </button>
             </div>

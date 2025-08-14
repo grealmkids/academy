@@ -1,9 +1,9 @@
-<h5 class="text-center mt-3" *ngIf="showCourse">
-  <span> Course Details </span>
+<h3 class="text-center mt-3 p-3" *ngIf="showCourse">
+  <span class="p-3"> Course Details </span>
   <a (click)="goBack()" class="btn btn-dark ms-5"
     ><i class="bi bi-arrow-left"></i> Other Courses</a
   >
-</h5>
+</h3>
 
 <div class="row" *ngIf="course && showCourse">
   <div class="col-md-1"></div>
