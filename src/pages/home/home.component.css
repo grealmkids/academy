@@ -34,3 +34,10 @@
 .text-green {
   color: var(--brand-green) !important;
 }
+
+.homecover h1 .bi-leaf-fill {
+  color: var(--brand-green) !important; /* Ensure it's our light green */
+  font-size: 1.2em; /* Make it slightly larger than inherited */
+  vertical-align: middle; /* Align with text */
+  margin-left: 10px; /* Add some space */
+}
