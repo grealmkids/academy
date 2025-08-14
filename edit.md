@@ -1,13 +1,3 @@
-Mrs. Claire Ochola is a talented musician,
-script writer, poet and movie producer,
-with a Bachelors of Arts degree in Music,
-from Makerere University. She has undergone professional 3D training with UCC, and professional Film production training with the Film Income Accelerator programme.
-She has composed over 70 trending original
-teaching aid videos for toddlers and children
-using a unique Afro-Musical approach. She
-is also an expert in 3D Animation and Video
-editing using modern tools & techniques.
-She produced the famous series “Secrets of
-an African Teen” on Youtube. She is
-passionate about music, Art, Artificial
-Intelligence and Technology Innovation
+C:\Users\dell\Documents\GRSTUDIO\2025\grealmwebsite\grealm academy\public\courses.json
+on each course, add a variable called audioadvert  and another variable called videoadvert
+then in the component C:\Users\dell\Documents\GRSTUDIO\2025\grealmwebsite\grealm academy\src\components\courses\courses.component.html inside the blank   <div class="col-md-3"></div>, add the audio player if the audio exists and if the video exists add a button to play the video. use our brand colors considering contrast. I like the styling of the button "SEE DETAILS/APPLY"

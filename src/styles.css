@@ -66,21 +66,21 @@ body {
 }
 
 .btn-primary {
+  background-color: var(--brand-green) !important;
+  border-color: var(--brand-green) !important;
+  color: var(--brand-black) !important;
+}
+
+.btn-primary:hover {
   background-color: var(--brand-blue) !important;
   border-color: var(--brand-blue) !important;
   color: var(--brand-white) !important;
 }
 
-.btn-primary:hover {
-  background-color: var(--brand-green) !important;
-  border-color: var(--brand-green) !important;
-  color: var(--brand-black) !important;
-}
-
 .btn-success {
   background-color: var(--brand-green) !important;
   border-color: var(--brand-green) !important;
-  color: var(--brand-black) !important;
+  color: var(--brand-green) !important; /* Changed to brand green */
 }
 
 .btn-success:hover {
@@ -136,4 +136,41 @@ body {
 }
 .text-primary {
   color: var(--brand-green) !important; /* Remap to brand green */
+}
+
+.swal-confirm-button {
+  background-color: var(--brand-green) !important;
+  color: var(--brand-black) !important;
+}
+
+.swal-cancel-button {
+  background-color: var(--brand-blue) !important;
+  color: var(--brand-white) !important;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.swal-video-modal {
+  width: 90% !important; /* Make modal wider */
+  max-width: 900px !important; /* Max width for larger screens */
+  background-color: var(--brand-black) !important;
+  color: var(--brand-white) !important;
+}
+
+.swal-video-close-button {
+  color: var(--brand-white) !important;
+  font-size: 2rem !important;
 }

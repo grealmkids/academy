@@ -162,7 +162,7 @@ export class CourseDetailsComponent implements OnInit {
       title: "Oops...",
       text: "Please fill in all fields",
       allowOutsideClick: false,
-      footer: '<a href="#">Also select a month?</a>'
+      footer: '<a >Also select a month</a>'
     });
   }
 

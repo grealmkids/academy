@@ -12,9 +12,7 @@
       <img [src]="course.Image" alt="{{ course.Title }}" class="img-fluid" />
     </div>
     <div class="col-md-6 p-3 pt-0">
-      <h1
-        [ngClass]="getTitleClass(course.CourseId)"
-        class="fw-bold title-purple">
+      <h1 [ngClass]="getTitleClass(course.CourseId)" class="fw-bold">
         {{ course.Title }}
       </h1>
       <p class="text-right my-1" *ngIf="!showSuccess">
@@ -63,7 +61,7 @@
 
           <tr>
             <td class="coursetitle">Next Lot Begins:</td>
-            <td class="text-danger fw-bold">{{ course.Next }}</td>
+            <td class="text-primary">{{ course.Next }}</td>
           </tr>
         </table>
         <div class="">
@@ -72,7 +70,7 @@
           <table class="table2 table-striped">
             <tr *ngFor="let topic of course.Topics">
               <td class="text-left">
-                <i class="bi bi-check text-success bg-none"></i>
+                <i class="bi bi-check-circle-fill text-primary bg-none"></i>
               </td>
               <td class="text-left">{{ topic }}</td>
             </tr>
@@ -88,26 +86,26 @@
     <h2 class="text-left fw-bold benefits">Benefits</h2>
     <ul class="list-unstyled">
       <li class="">
-        <h5><i class="bi bi-check-all text-danger me-2"></i> Mentorship</h5>
+        <h5><i class="bi bi-check-all text-primary me-2"></i> Mentorship</h5>
       </li>
       <li class="">
-        <h5><i class="bi bi-check-all text-danger me-2"></i> Certificate</h5>
+        <h5><i class="bi bi-check-all text-primary me-2"></i> Certificate</h5>
       </li>
       <li class="">
-        <h5 class="text-danger me-2">
-          <i class="bi bi-camera-video-fill text-danger me-2"></i> Session
+        <h5 class="text-primary me-2">
+          <i class="bi bi-camera-video-fill text-primary me-2"></i> Session
           Recordings
         </h5>
       </li>
       <li class="">
         <h5>
-          <i class="bi bi-check-all text-danger me-2"></i> Ask the Tutor any
+          <i class="bi bi-check-all text-primary me-2"></i> Ask the Tutor any
           questions
         </h5>
       </li>
       <li class="">
         <h5>
-          <i class="bi bi-check-all text-danger me-2"></i> Connect with other
+          <i class="bi bi-check-all text-primary me-2"></i> Connect with other
           students
         </h5>
       </li>
@@ -132,7 +130,8 @@
             placeholder="{{ course.Title }}"
             required
             [(ngModel)]="formData.title"
-            #title="ngModel" />
+            #title="ngModel"
+          />
         </div>
         <div class="input-group">
           <input
@@ -141,10 +140,12 @@
             required
             name="name"
             [(ngModel)]="formData.name"
-            #name="ngModel" />
+            #name="ngModel"
+          />
           <div
             *ngIf="name.invalid && (name.dirty || name.touched)"
-            class="text-danger mx-auto">
+            class="text-danger mx-auto"
+          >
             Name is required.
           </div>
         </div>
@@ -155,10 +156,12 @@
             required
             name="phone"
             [(ngModel)]="formData.phone"
-            #phone="ngModel" />
+            #phone="ngModel"
+          />
           <div
             *ngIf="phone.invalid && (phone.dirty || phone.touched)"
-            class="text-danger mx-auto">
+            class="text-danger mx-auto"
+          >
             Phone is required.
           </div>
         </div>
@@ -169,10 +172,12 @@
             placeholder="Email"
             required
             [(ngModel)]="formData.email"
-            #email="ngModel" />
+            #email="ngModel"
+          />
           <div
             *ngIf="email.invalid && (email.dirty || email.touched)"
-            class="text-danger mx-auto">
+            class="text-danger mx-auto"
+          >
             Enter a valid email.
           </div>
         </div>
@@ -186,7 +191,8 @@
             type="text"
             name="price"
             placeholder="USD {{ course.Price }}"
-            [(ngModel)]="formData.price" />
+            [(ngModel)]="formData.price"
+          />
         </div>
         <div class="input-group">
           <input
@@ -195,10 +201,12 @@
             placeholder="Country"
             required
             [(ngModel)]="formData.country"
-            #country="ngModel" />
+            #country="ngModel"
+          />
           <div
             *ngIf="country.invalid && (country.dirty || country.touched)"
-            class="text-danger mx-auto">
+            class="text-danger mx-auto"
+          >
             Country is required.
           </div>
         </div>
@@ -207,7 +215,8 @@
             name="course_month"
             required
             [(ngModel)]="formData.course_month"
-            #course_month="ngModel">
+            #course_month="ngModel"
+          >
             <option value="">Starting Month</option>
             <option value="January">January</option>
             <option value="February">February</option>
@@ -227,7 +236,8 @@
               course_month.invalid &&
               (course_month.dirty || course_month.touched)
             "
-            class="text-danger mx-auto">
+            class="text-danger mx-auto"
+          >
             Starting month is required.
           </div>
         </div>
@@ -237,12 +247,14 @@
             type="text"
             name="date"
             required
-            [(ngModel)]="formData.date" />
+            [(ngModel)]="formData.date"
+          />
         </div>
         <button
           type="submit"
           class="btn btn-primary px-5"
-          [disabled]="isSubmitting">
+          [disabled]="isSubmitting"
+        >
           Submit Application
         </button>
         <div class="my-3">
