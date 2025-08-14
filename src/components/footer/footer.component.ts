@@ -16,9 +16,9 @@ export class FooterComponent {
           <h1 class="text-center text-success display-1">
             <i class="bi bi-whatsapp"></i>
           </h1>
-          <p class="text-center">+256 773 913902</p>
+          <p class="text-center">+256773913902</p>
           <p class="text-center">
-           <a href="https://api.whatsapp.com/send?phone=+256773913902&text=Hello%20Academy!" class="btn btn-success">Send me a message</a>
+           <a href="https://api.whatsapp.com/send?phone=+256773913902&text=Hello%20Academy!" class="btn btn-success">Send us a message</a>
           </p>
         </div>
       `,
@@ -34,7 +34,7 @@ export class FooterComponent {
           </h1>
           <p class="text-center">admin@grealm.org</p>
           <p class="text-center">
-           <a href="mailto:admin@grealm.org" class="btn btn-danger">Send me a message</a>
+           <a href="mailto:admin@grealm.org" class="btn btn-danger">Send us a message</a>
           </p>
         </div>
       `,

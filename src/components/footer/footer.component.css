@@ -155,3 +155,10 @@ ul {
   font-size: 1.1rem; /* Increased font size */
   color: var(--brand-white); /* Remap to brand white */
 }
+
+.scripture-text {
+  background-color: transparent;
+  color: var(--brand-green);
+  border-top: 2px solid var(--brand-green);
+  padding-top: 10px; /* Add some space for the border */
+}
