@@ -8,7 +8,7 @@
 
 <div
   id="carouselTestimonials"
-  class="carousel slide bg-dark p-3"
+  class="carousel slide bg-brand-blue-opacity p-3"
   data-bs-ride="carousel"
 >
   <div class="carousel-inner">
@@ -27,13 +27,13 @@
           />
         </div>
         <div class="testimonial text-white col-md-6">
-          <p class="description fs-4">{{ student.Description }}</p>
           <div class="source py-3">
             <span class="name fw-bold">{{ student.Name }}</span
             ><br />
             <i class="profession">{{ student.Profession }}</i
             >, <span class="location">{{ student.Location }}</span>
           </div>
+          <p class="description fs-4">{{ student.Description }}</p>
         </div>
         <div class="col-md-2"></div>
       </div>

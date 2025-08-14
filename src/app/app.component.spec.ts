@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'bigezo-web-app' title`, () => {
+  it(`should have the 'grealm-academy-web-app' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('bigezo-web-app');
+    expect(app.title).toEqual('grealm-academy-web-app');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, bigezo-web-app');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, grealm-academy-web-app');
   });
 });

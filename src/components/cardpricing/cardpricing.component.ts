@@ -43,8 +43,8 @@ export class CardpricingComponent {
           </form>
           <div class="mt-3">
             <p class="text-center d-none">OR</p>
-            <a href="https://api.whatsapp.com/send?phone=+256773913902&text=Hello%20Bigezo!" class="btn btn-success m-2">Order via Whatsapp</a>
-            <a href="mailto:bigezotutor@gmail.com" target="_blank" class="btn btn-danger m-2">Order via Email</a>
+            <a href="https://api.whatsapp.com/send?phone=+256773913902&text=Hello%20grealm-academy!" class="btn btn-success m-2">Order via Whatsapp</a>
+            <a href="mailto:grealm-academytutor@gmail.com" target="_blank" class="btn btn-danger m-2">Order via Email</a>
           </div>
         </div>
       `,
@@ -65,7 +65,7 @@ export class CardpricingComponent {
   getFree(): void {
     const link = document.createElement('a');
     link.href = 'https://drive.usercontent.google.com/download?id=1ZcDLZMysaZyQifJ8JnoMElznGxN4EL4W&export=download&authuser=0';
-    link.download = 'bigezocardssetup.exe';
+    link.download = 'grealm-academycardssetup.exe';
     link.target = '_blank';
     document.body.appendChild(link);
     link.click();

@@ -1,5 +1,5 @@
 {
-  "name": "bigezo-web-app",
+  "name": "grealm-academy-web-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -17,7 +17,7 @@
     "@angular/forms": "^18.0.0",
     "@angular/router": "^18.0.0",
     "@sweetalert2/ngx-sweetalert2": "^12.4.0",
-    "bigezo-web-app": "file:",
+    "grealm-academy-web-app": "file:",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "rxjs": "~7.8.0",

@@ -1,7 +1,40 @@
 .name {
   color: var(--brand-black); /* Remap to brand black */
   font-size: 1.5rem; /* Increased font size */
-  padding: 3px 10px;
+  padding: 0.25rem 1rem; /* px-3 py-1 equivalent */
   background-color: var(--brand-green); /* Remap to brand green */
-  border-radius: 10px;
+  /* Removed border-radius */
+}
+
+.bg-brand-blue-opacity {
+  background-color: rgba(4, 17, 133, 0.3);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 60px; /* Larger size */
+  height: 60px; /* Larger size */
+  background-color: rgba(4, 17, 133, 0.7); /* Brand blue with opacity */
+  border-radius: 50%; /* Rounded */
+  opacity: 1; /* Ensure visibility */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: var(--brand-green); /* Brand green on hover */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 30px; /* Larger icon */
+  height: 30px; /* Larger icon */
+  background-size: 100%, 100%; /* Ensure icon fills */
+  filter: invert(100%); /* Make icon white */
+  transition: filter 0.3s ease; /* Smooth transition */
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  filter: invert(0%); /* Make icon black on hover */
 }

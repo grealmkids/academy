@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "bigezo-web-app": {
+    "grealm-academy-web-app": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,12 +13,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/bigezo-web-app",
+            "outputPath": "dist/grealm-academy-web-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
@@ -61,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "bigezo-web-app:build:production"
+              "buildTarget": "grealm-academy-web-app:build:production"
             },
             "development": {
-              "buildTarget": "bigezo-web-app:build:development"
+              "buildTarget": "grealm-academy-web-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,10 +73,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               {
@@ -86,12 +81,8 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": [
-              "src/js/your-script.js"
-            ]
+            "styles": ["src/styles.css"],
+            "scripts": ["src/js/your-script.js"]
           }
         }
       }

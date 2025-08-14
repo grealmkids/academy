@@ -25,6 +25,6 @@ import { BooksComponent } from './books/books.component';
         RouterModule, CommonModule, CoursesComponent, CourseDetailsComponent, FooterComponent,BooksComponent]
 })
 export class AppComponent {
-  title = 'bigezo-web-app';
+  title = 'grealm-academy-web-app';
   
 }
