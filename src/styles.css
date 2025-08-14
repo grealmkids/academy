@@ -58,6 +58,11 @@ body {
 .dropdown-item,
 .btn {
   cursor: pointer;
+  border-radius: 50px !important; /* Very rounded buttons */
+  padding: 0.5rem 3rem !important; /* px-5 and py-2 equivalent */
+  font-weight: bold !important;
+  font-size: 16px !important;
+  text-transform: uppercase !important; /* All caps text */
 }
 
 .btn-primary {
@@ -67,6 +72,30 @@ body {
 }
 
 .btn-primary:hover {
+  background-color: var(--brand-green) !important;
+  border-color: var(--brand-green) !important;
+  color: var(--brand-black) !important;
+}
+
+.btn-success {
+  background-color: var(--brand-green) !important;
+  border-color: var(--brand-green) !important;
+  color: var(--brand-black) !important;
+}
+
+.btn-success:hover {
+  background-color: var(--brand-white) !important;
+  border-color: var(--brand-white) !important;
+  color: var(--brand-black) !important;
+}
+
+.btn-danger {
+  background-color: var(--brand-blue) !important;
+  border-color: var(--brand-blue) !important;
+  color: var(--brand-white) !important;
+}
+
+.btn-danger:hover {
   background-color: var(--brand-green) !important;
   border-color: var(--brand-green) !important;
   color: var(--brand-black) !important;

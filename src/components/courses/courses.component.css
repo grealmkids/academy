@@ -32,17 +32,15 @@ td {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
-.p-3.mb-5 { /* This is the parent container of the course card */
+.p-3.mb-5 {
+  /* This is the parent container of the course card */
   position: relative;
 }
 
 .price-tag {
-  position: absolute;
-  top: -10px; /* Adjust as needed to float above */
-  right: 10px; /* Adjust as needed to float at the end */
   background-color: var(--brand-green);
   padding: 5px 10px;
-  z-index: 10; /* Ensure it's above other elements */
+
   font-size: 1.2rem; /* Adjust font size */
   font-weight: bold;
 }
@@ -52,17 +50,17 @@ td {
   font-size: 1.5rem; /* Larger font size */
   display: block; /* On its own line */
   margin-right: 0; /* Remove margin-right as it's on its own line */
+  border-right: 3px solid var(--brand-black); /* Underline for emphasis */
 }
 
 .price-ugx {
   color: var(--brand-blue);
+  font-size: 1.5rem; /* Larger font size */
 }
 
 @media (max-width: 767px) {
   .price-tag {
-    top: 5px; /* Adjust top for smaller screens */
-    right: 5px; /* Adjust right for smaller screens */
-    font-size: 1rem; /* Slightly smaller font size for phone */
+    font-size: 1.2rem; /* Slightly smaller font size for phone */
   }
   .price-dollar {
     font-size: 1.2rem; /* Adjust dollar font size for phone */
