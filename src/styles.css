@@ -80,7 +80,7 @@ body {
 .btn-success {
   background-color: var(--brand-green) !important;
   border-color: var(--brand-green) !important;
-  color: var(--brand-green) !important; /* Changed to brand green */
+  color: var(--brand-black) !important; /* Changed to brand black */
 }
 
 .btn-success:hover {
