@@ -100,7 +100,7 @@ export class CourseDetailsComponent implements OnInit {
     });
   }
 
-  sheetDbUrl = 'https://sheetdb.io/api/v1/f5hymlpi6ect2'; // Replace with your actual SheetDB URL
+  sheetDbUrl = 'https://sheetdb.io/api/v1/t9s0o79sw35f1'; // Replace with your actual SheetDB URL
 
   formData = {
     year: '',

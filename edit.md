@@ -1,3 +1,2 @@
 C:\Users\dell\Documents\GRSTUDIO\2025\grealmwebsite\grealm academy\public\courses.json
-on each course, add a variable called audioadvert  and another variable called videoadvert
-then in the component C:\Users\dell\Documents\GRSTUDIO\2025\grealmwebsite\grealm academy\src\components\courses\courses.component.html inside the blank   <div class="col-md-3"></div>, add the audio player if the audio exists and if the video exists add a button to play the video. use our brand colors considering contrast. I like the styling of the button "SEE DETAILS/APPLY"
+here are the courses, create for me a compelling text advert for each one. let us do one at a go. i will put the text you give me into text to speech ai advert platform, so write the text like a pro.
