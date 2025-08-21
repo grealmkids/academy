@@ -1,2 +1,1 @@
-C:\Users\dell\Documents\GRSTUDIO\2025\grealmwebsite\grealm academy\public\courses.json
-here are the courses, create for me a compelling text advert for each one. let us do one at a go. i will put the text you give me into text to speech ai advert platform, so write the text like a pro.
+here is the signup form i wanted you to modify, i didnt want you to create a new signup form  C:\Users\dell\Documents\GRSTUDIO\2025\grealmwebsite\grealm academy\src\pages\course-details\course-details.component.ts   this one is already working with the correct sheetdb api. just add code to call the sms api from the backend. have you understood?

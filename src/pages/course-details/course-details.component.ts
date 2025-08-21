@@ -136,6 +136,24 @@ export class CourseDetailsComponent implements OnInit {
           this.showCourse = true;
           this.showForm = false;
           this.showSuccessMessage = true;
+
+          // Send SMS
+          const smsApiUrl = 'http://localhost:3000/send-sms';
+          const smsData = {
+            name: this.formData.name,
+            email: this.formData.email,
+            phone: this.formData.phone,
+            title: this.formData.title,
+            price: this.formData.price
+          };
+          this.http.post(smsApiUrl, smsData).subscribe(
+            smsResponse => {
+              console.log('SMS sent successfully', smsResponse);
+            },
+            smsError => {
+              console.error('Error sending SMS', smsError);
+            }
+          );
         },
         error => {
           Swal.close();
