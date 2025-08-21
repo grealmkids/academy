@@ -2,38 +2,6 @@
   "courses": [
     {
       "CourseId": 1,
-      "Title": "Graphic Design  (Basic to Pro)",
-      "Description": "Master graphic design with free AI-powered tools like Figma & Canva. Create stunning visuals, from logos to marketing campaigns.",
-      "Price": "USD 70",
-      "PriceUgx": "UGX 250,000",
-      "ClassTime": "1 Hr/ classDay",
-      "Duration": "4 weeks",
-      "Image": "images/courseimages/graphic.png",
-      "Thumbnail": "images/graphic.png",
-      "Max": "50 Students/ Month",
-      "Preview": "",
-      "ClassDays": ["Tue", "Thur", "Fri", "Sat"],
-      "Next": "9-Sept-2025",
-      "audioadvert": "audios/1.MP3",
-      "videoadvert": "videos/1.mp4",
-      "Topics": [
-        "Introduction to Graphic Design Principles",
-        "Using Online graphic design tools (Canva & Figma)",
-        "Using Text in Canva and Figma",
-        "Using Images in Canva and Figma",
-        "Photo editing and manipulation",
-        "Techniques of Changing photo backgrounds",
-        "Creating fliers (Marketing Campaigns/ Advertisement)",
-        "Logo Design",
-        "Design dimensioning & resolution",
-        "Exporting graphics for print/social media (settings)",
-        "Creating a company profile",
-        "Designing a magazine",
-        "Final design project(s)"
-      ]
-    },
-    {
-      "CourseId": 2,
       "Title": "AI-Powered 3D Animation (Basic to Pro)",
       "Description": "Animate like a pro! Learn AI-powered 3D animation and music production to bring your creative visions to life.",
       "Price": "USD 100",
@@ -47,7 +15,7 @@
       "ClassDays": ["Tue", "Thur", "Fri", "Sat"],
       "Next": "9-Sept-2025",
       "audioadvert": "audios/2.mp3",
-      "videoadvert": "videos/1.mp4",
+      "videoadvert": "videos/2.mp4",
       "Topics": [
         "Introduction to AI in 3D Animation",
         "Exploring AI Animation Tools & Platforms",
@@ -69,6 +37,38 @@
         "Guided 1-Minute AI Animation Project",
         "Blending AI Tools with Human Creativity",
         "Your Final AI 3D Animated Project"
+      ]
+    },
+    {
+      "CourseId": 2,
+      "Title": "Graphic Design  (Basic to Pro)",
+      "Description": "Master graphic design with free AI-powered tools like Figma & Canva. Create stunning visuals, from logos to marketing campaigns.",
+      "Price": "USD 70",
+      "PriceUgx": "UGX 250,000",
+      "ClassTime": "1 Hr/ classDay",
+      "Duration": "4 weeks",
+      "Image": "images/courseimages/graphic.png",
+      "Thumbnail": "images/graphic.png",
+      "Max": "50 Students/ Month",
+      "Preview": "",
+      "ClassDays": ["Tue", "Thur", "Fri", "Sat"],
+      "Next": "9-Sept-2025",
+      "audioadvert": "audios/1.MP3",
+      "videoadvert": "videos/2.mp4",
+      "Topics": [
+        "Introduction to Graphic Design Principles",
+        "Using Online graphic design tools (Canva & Figma)",
+        "Using Text in Canva and Figma",
+        "Using Images in Canva and Figma",
+        "Photo editing and manipulation",
+        "Techniques of Changing photo backgrounds",
+        "Creating fliers (Marketing Campaigns/ Advertisement)",
+        "Logo Design",
+        "Design dimensioning & resolution",
+        "Exporting graphics for print/social media (settings)",
+        "Creating a company profile",
+        "Designing a magazine",
+        "Final design project(s)"
       ]
     }
   ]

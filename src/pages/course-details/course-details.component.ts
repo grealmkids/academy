@@ -138,7 +138,7 @@ export class CourseDetailsComponent implements OnInit {
           this.showSuccessMessage = true;
 
           // Send SMS
-          const smsApiUrl = 'http://localhost:3000/send-sms';
+          const smsApiUrl = 'https://academybackend.grealm.org/send-sms';
           const smsData = {
             name: this.formData.name,
             email: this.formData.email,
