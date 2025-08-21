@@ -55,13 +55,13 @@
           class="col-md-3 d-flex flex-column justify-content-center align-items-center"
         >
           <div class="media-container">
-            <div *ngIf="course.audioadvert" class="my-3">
+            <div *ngIf="hasAudio(course)" class="my-3">
               <audio controls class="w-100">
                 <source [src]="course.audioadvert" type="audio/mpeg" />
                 Your browser does not support the audio element.
               </audio>
             </div>
-            <div *ngIf="course.videoadvert" class="my-3">
+            <div *ngIf="hasVideo(course)" class="my-3">
               <button
                 class="btn btn-dark ps-5 pe-5 m-1 w-100"
                 (click)="playVideo(course.videoadvert)"

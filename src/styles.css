@@ -17,7 +17,9 @@ body {
   color: var(--brand-white); /* Light text for contrast */
   font-size: 1.1rem; /* Slightly larger base font size */
 }
-
+.text-light-green {
+  color: var(--brand-green) !important;
+}
 /* Override Bootstrap's default colors and apply brand colors */
 .bg-danger {
   background-color: var(--brand-blue) !important; /* Remap to brand blue */

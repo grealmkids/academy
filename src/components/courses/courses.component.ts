@@ -29,6 +29,14 @@ export class CoursesComponent implements OnInit {
     this.router.navigate(['/course-detail', courseId]);
   }
 
+  hasAudio(course: any): boolean {
+    return course.audioadvert && course.audioadvert !== '';
+  }
+
+  hasVideo(course: any): boolean {
+    return course.videoadvert && course.videoadvert !== '';
+  }
+
   playVideo(videoUrl: string): void {
     // Assuming videoUrl is a YouTube watch URL, convert to embed URL
     let embedUrl = videoUrl;
