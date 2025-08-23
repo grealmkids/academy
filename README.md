@@ -1,27 +1,9 @@
-# grealm-academyWebApp
+Correct path to international schools catalog:  C:\Users\dell\Documents\GRSTUDIO\2025\grealmwebsite\grealm academy\public\docs\int-school-catalog.pdf
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
 
-## Development server
+correct path to local schools catalog:  C:\Users\dell\Documents\GRSTUDIO\2025\grealmwebsite\grealm academy\public\docs\school-catalog.pdf
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Now, on the schools page:
+1. I dont see the "download catalog" button
+2. your UI is tooooo amateur. redesign it with so much simplicity, yet sophisticated, because you are a senior UI/UX Designer at Adobe for the past 30 years

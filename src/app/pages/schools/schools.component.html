@@ -1,0 +1,67 @@
+<div class="schools-page">
+  <header class="schools-header text-center">
+    <h1>G-Realm Academy for Schools</h1>
+    <p class="lead">Empowering the next generation of creators with AI-driven 3D animation skills.</p>
+  </header>
+
+  <div class="catalog-selector text-center">
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-selector" [class.active]="isLocal" (click)="toggleCatalog(true)">
+        <span class="flag">🇺🇬</span> Local (Uganda)
+      </button>
+      <button type="button" class="btn btn-selector" [class.active]="!isLocal" (click)="toggleCatalog(false)">
+        <span class="flag">🌍</span> International
+      </button>
+    </div>
+  </div>
+
+  <main class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div *ngIf="isLocal" class="catalog-card local-card">
+          <div class="discount-badge local-badge">
+            <span>~43% Off</span>
+            <small>For Schools</small>
+          </div>
+          <div class="card-content">
+            <h2>Ugandan Schools Program</h2>
+            <p class="price">
+              <span class="new-price">UGX 200,000 / student</span>
+              <span class="original-price">UGX 350,000</span>
+            </p>
+            <p class="description">A comprehensive program designed for Ugandan students, focusing on practical skills and local industry needs. Includes mentorship and project-based learning. <strong>Classes are conducted physically at your school's premises, in your computer lab.</strong></p>
+            <a href="docs/school-catalog.pdf" target="_blank" class="btn btn-download">Download Catalog (PDF)</a>
+            <hr>
+            <div class="enroll-section">
+              <h4>Enroll Now</h4>
+              <a href="https://wa.me/256773913902" target="_blank" class="btn btn-enroll whatsapp">WhatsApp</a>
+              <a href="mailto:academy@grealm.org" class="btn btn-enroll email">Email</a>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="!isLocal" class="catalog-card international-card">
+          <div class="discount-badge">
+            <span>30% Off</span>
+            <small>For Schools</small>
+          </div>
+          <div class="card-content">
+            <h2>International Schools Program</h2>
+            <p class="price">
+              <span class="new-price">USD 210 / student</span>
+              <span class="original-price">USD 300</span>
+            </p>
+            <p class="description">A globally-focused curriculum for international students, emphasizing creative innovation and professional portfolio development for the global animation industry. <strong>Classes are conducted physically at your school's premises, in your computer lab.</strong></p>
+            <a href="docs/int-school-catalog.pdf" target="_blank" class="btn btn-download">Download Catalog (PDF)</a>
+            <hr>
+            <div class="enroll-section">
+              <h4>Enroll Now</h4>
+              <a href="https://wa.me/256773913902" target="_blank" class="btn btn-enroll whatsapp">WhatsApp</a>
+              <a href="mailto:academy@grealm.org" class="btn btn-enroll email">Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>

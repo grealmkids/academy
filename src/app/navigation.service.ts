@@ -41,4 +41,8 @@ export class NavigationService {
   navigateToTestimonies():void{
     this.router.navigate(['/testimonies']);
   }
+
+  navigateToSchools(): void {
+    this.router.navigate(['/schools']);
+  }
 }

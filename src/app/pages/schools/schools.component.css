@@ -1,0 +1,172 @@
+.schools-page {
+  padding: 3rem 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.schools-header {
+  margin-bottom: 3rem;
+}
+
+.schools-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--brand-blue);
+}
+
+.catalog-selector .btn-selector {
+  background-color: transparent;
+  border: 2px solid var(--brand-blue);
+  color: var(--brand-blue);
+  font-size: 1.2rem;
+  padding: 0.75rem 2rem;
+  transition: all 0.3s ease;
+  margin: 0 5px;
+}
+
+.catalog-selector .btn-selector.active {
+  background-color: var(--brand-blue);
+  color: var(--brand-white);
+}
+
+.catalog-card {
+  background: var(--brand-white);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 3rem;
+  transition: transform 0.3s ease;
+  position: relative; /* Needed for positioning the badge */
+  overflow: hidden; /* To contain the badge */
+}
+
+.catalog-card:hover {
+  transform: translateY(-5px);
+}
+
+.catalog-card .price {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--brand-green);
+  margin: 1rem 0;
+}
+
+.catalog-card .description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.btn-download {
+  background-color: var(--brand-green);
+  color: var(--brand-black);
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.enroll-section h4 {
+  margin-bottom: 1rem;
+}
+
+.btn-enroll {
+  margin-right: 1rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.btn-enroll.whatsapp {
+  background-color: #25d366;
+  color: white;
+}
+
+.btn-enroll.email {
+  background-color: #ea4335;
+  color: white;
+}
+
+.price .original-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.price .new-price {
+  color: var(--brand-green);
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 20px;
+  right: -50px;
+  background-color: #ff4d4d; /* A bright red for attention */
+  color: white;
+  padding: 10px 50px;
+  transform: rotate(45deg);
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.discount-badge.local-badge {
+  background-color: var(--brand-green) !important; /* Use brand green */
+  color: var(--brand-black) !important; /* Use brand black for text */
+}
+
+.discount-badge span {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.discount-badge small {
+    font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .schools-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .catalog-card {
+    padding: 2rem;
+  }
+
+  .discount-badge {
+    top: 10px;
+    right: -60px;
+    padding: 8px 50px;
+  }
+
+  .discount-badge span {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .schools-header h1 {
+    font-size: 2rem;
+  }
+
+  .catalog-selector .btn-group {
+    flex-direction: column;
+  }
+
+  .catalog-selector .btn-selector {
+    margin: 5px 0;
+  }
+
+  .btn-enroll {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+}

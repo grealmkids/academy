@@ -52,6 +52,10 @@ navigateToTestimonies():void{
   this.navigationService.navigateToTestimonies();
 }
 
+navigateToSchools(): void {
+  this.navigationService.navigateToSchools();
+}
+
 confirmNavigateToStudio(): void {
   Swal.fire({
     title: 'Visit G-Realm Studio Official Website?',
